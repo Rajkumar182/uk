@@ -1,0 +1,113 @@
+body{
+		background-color: #faf2f2 !important;
+	    font-family: 'Montserrat', sans-serif !important; 	
+
+
+}
+
+
+
+#top-bar{
+	font-family: 'Ubuntu-bold', sans-serif;
+	text-align: center;
+	background-color:#856c8b;
+	color:white !important;
+}
+
+.navbar-brand{	
+	font-family: 'Ubuntu';
+	color:#fff !important;
+	padding: 10px;
+	line-height: 1.5;
+	}
+
+
+h1{
+	font-family: 'Ubuntu-bold';
+	font-size: 3rem !important;
+	font-weight: bold !important;
+	}	
+
+h5{
+	font-family: 'Ubuntu-bold';
+	font-weight: bold !important;
+	color: #856c8b;
+
+}
+
+
+
+.universities-card{
+/*	transition-duration: 0.3s;
+	transition:scale(1.5);
+	box-shadow: 0px 0px 10px grey;*/
+
+	/*cursor: pointer;*/
+
+	margin:25px 0px;
+}
+
+
+
+
+
+
+
+.card{
+ 	box-shadow: 0px 0px 4px;
+ 	border: 0px !important;
+}
+
+hr{
+	margin:0px 20px;
+}
+
+.card-body{
+	text-align: center;
+	padding:20px 10px !important;
+}
+
+
+.uni-fee{
+	float: left;
+
+}
+
+.courses{
+	float: right;
+}
+/*.card :hover{
+	transition-duration: 0.3s;
+	transition:scale(1.5);
+	box-shadow: 0px 0px 10px #856c8b;
+	cursor: pointer;
+}*/
+
+
+.card-img-top{
+	height: 300px;
+	width: auto;
+	padding:0px !important;	
+
+}
+
+
+.card-header{
+	padding: 0px !important;
+}
+
+/*
+span{
+	float: right;
+}
+*/
+
+a :hover{
+		transition-duration: 0.3s;
+	transition:scale(1.5);
+	box-shadow: 0px 0px 10px grey;
+
+	cursor: pointer;
+
+}
+

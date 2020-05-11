@@ -1,0 +1,42 @@
+body{
+		background-color: #faf2f2 !important;
+	    font-family: 'Montserrat', sans-serif !important; 	
+
+
+}
+
+
+#top-bar{
+	font-family: 'Ubuntu-bold', sans-serif;
+	background-color:#856c8b;
+	color:white !important;
+	margin-bottom: 60px;
+}
+
+.navbar-brand{	
+	font-family: 'Ubuntu';
+	color:#fff !important;
+	padding: 10px;
+	line-height: 1.5;
+	}
+
+
+h1{
+	font-family: 'Ubuntu-bold';
+	font-size: 3rem !important;
+	font-weight: bold !important;
+	padding: 2.5rem 0rem;
+	color: #856c8b;
+	}	
+
+
+
+img{
+	height: 350px;
+	width: 100%;
+}	
+
+
+.container{
+	text-align:justify;
+}

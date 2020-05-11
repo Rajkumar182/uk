@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Study in the UK</title>
+	<!--css-link-->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<!--javascript-link Bootstrap-->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<!--fonts.google link--->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Sacramento|Ubuntu&display=swap" rel="stylesheet">
+
+	<!--
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Sacramento', cursive;
+-->
+
+<!--fontawesome icons-->
+<script src="https://kit.fontawesome.com/0d3a9eaca9.js" crossorigin="anonymous"></script>
+
+
+
+
+<style type="text/css">
+	body{
+		/*font-family: Montserrat, sans-serif;*/
+		/*background-color: #ff4c68;*/
+		
+	}
+	
+</style>
+</head>
+
+<body>
+
+
+	<div id="top-bar">				
+
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a class="navbar-brand" href="#"><strong>Study in <br>the UK </strong> </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">   <!--ml=margin left--->
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html"> <i class="fas fa-home"></i>  <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#why-uk">Why study in the UK?</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="universities.html">Find a University</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#scholarships">Scholarships and Funding</a>
+					</li>
+
+     <!--  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+    </li> -->
+
+</ul>
+<form class="form-inline my-2 my-lg-0">
+	<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	<button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+</form>
+</div>
+</nav>
+</div>
+
+<!-- carousel UK Universities -->
+
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+	<!-- <ol class="carousel-indicators">
+		<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+		<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+		<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+		<li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+		<li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+		<li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+
+	</ol> -->
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img class="carousel-images" src="images/imperial-college-london.jpg" class="d-block w-100" alt="imperial-college-london">
+			<div class="carousel-caption d-none d-md-block">
+				<h5>Imperial College London</h5>
+
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img class="carousel-images" src="images/university-college-london.jpg" class="d-block w-100" alt="university-college-london">
+			<div class="carousel-caption d-none d-md-block">
+				<h5>University College London</h5>
+
+			</div>
+
+		</div>
+
+
+		<div class="carousel-item">
+			<img class="carousel-images" src="images/kings-college.jpg" class="d-block w-100" alt="kings-college">
+			<div class="carousel-caption d-none d-md-block">
+				<h5>Kings College</h5>
+
+			</div>
+
+		</div>
+
+
+		<div class="carousel-item">
+			<img class="carousel-images" src="images/queen-mary-university.jpg" class="d-block w-100" alt="queen-mary-university">
+			<div class="carousel-caption d-none d-md-block">
+				<h5>Queen Mary University</h5>
+
+			</div>
+
+		</div>
+
+
+
+		<div class="carousel-item">
+			<img class="carousel-images" src="images/london-school-of-economics.jpg" class="d-block w-100" alt="london-school-of-economics">
+			<div class="carousel-caption d-none d-md-block">
+				<h5>London School Of Economics</h5>
+
+			</div>
+
+		</div>
+
+
+
+
+		<div class="carousel-item">
+			<img class="carousel-images" src="images/royal-holloway-university.jpg" class="d-block w-100" alt="royal-holloway-university">
+			<div class="carousel-caption d-none d-md-block">
+				<h5>Royal Holloway University</h5>
+
+			</div>
+
+		</div>
+
+	</div>
+</div>
+
+
+<div>
+	<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+</div>
+
+
+
+<!--why the UK-->
+
+<div class="container">
+
+<div id="why-uk">
+	<div class="row">
+		<div class="col-lg-6">
+			<h1>Why study in the UK?</h1>
+			<p>A UK education opens doors, wherever you go in the world. </p>
+
+			<p>From the world-recognised universities to its innovative teaching approach and theScholarships and funding leading minds who deliver it, we have what you need to reach your potential. </p>
+
+			<p>The UK has been the preferred choice for some of the most important minds in history. One in four world leaders has studied in the UK, so if you’re dreaming of achieving big things, you can be sure you’re in the right place in the UK.</p>
+		</div>
+
+
+
+		<div class="col-lg-6">
+			<img class="towerbridge" src="images/towerbridge.jpg">	
+		</div>
+
+
+	</div>
+</div>
+
+
+<!-- Uk education system -->
+
+<div id="education-system">
+	<div class="row">
+
+		<div class="col-lg-6 col-12 d-none d-lg-block">
+
+			<img class="education-image" src="images/educationsystem.jpg">
+
+		</div>
+
+		<div class="col-lg-6 col-12">
+			<h1>The UK Education System</h1>
+			<p>As of 2017, there are 109 universities in England and a further 21 across Wales, Scotland and Northern Ireland. So for such a small land mass, the UK certainly has a strong concentration of university level education.</p>
+
+			<p>And of those universities, 4 of them rank in the top 6 best universities in the world. With over 50,000 undergraduate courses available, you’ll also be spoilt for choices when it comes to study. So it’s a great place to find the right course for you.</p>
+		</div>
+
+		<div class="col-lg-6 col-12 d-lg-none">
+			<img class="education-image-2" src="images/educationsystem.jpg">
+		</div>
+
+
+	</div>
+</div>
+
+
+<!-- cost of living -->
+<div id="livingcost">
+	<div class="row">
+		<div class="col-lg-6 col-12">
+			<h1>The Cost of Studying in the UK</h1>
+			<p>Students from over 200 different countries choose to study in the UK due to its affordability and high standards of education.</p>
+
+			<p>Studying in the UK costs between USD$10,000 and $17,000 per year depending on your course of study, and living costs average between USD$10,000 and $13,000 per year.</p> 
+			<p>The great thing about studying in the UK though is that you can work for up to 20 hours per week during term time, and full time when you’re on holidays.</p>
+
+			<p>So there’s every opportunity to make the cost of your studies more achievable.</p>
+		</div>
+
+		<div class="col-lg-6 col-12">
+			<img class="calculating-image" src="images/calculating.jpg">
+		</div>
+
+	</div>
+</div>
+
+
+<!-- post study options -->
+
+<div id="post-study">
+	<div class="row">	
+		<div class="col-lg-6 col-12 d-none d-lg-block" >
+			<img class="post-study-image" src="images/post-study.jpg">
+		</div>
+
+
+		<div class="col-lg-6 col-12" >
+			<h1>Post Study Employment Options</h1>
+			<p>The UK has an employer-sponsored visa program whereby you need to have a position offered to you to apply for a Tier 2 (General) visa.
+			</p>
+
+			<p>This can give you residency for a maximum of 5 years and 14 days, after which you’ll have to return home to your country of origin.</p>
+
+			<p>Whether you apply to return beyond that or not, there are plenty of graduate career options available during your time in the UK, especially in the fields of: Engineering, Healthcare, Arts & Entertainment, as well as numerous roles in Science, Business and Teaching.</p>
+		</div>
+
+		<div class="col-lg-6 col-12 d-lg-none" >
+			<img class="post-study-image-2" src="images/post-study.jpg">
+		</div>
+
+
+	</div>
+</div>
+
+</div>
+
+
+
+<!--scholarships and funding-->
+<div class="container-fluid">
+
+	<div id="scholarships">
+		<h2 class="scholarship-heading">Scholarships and funding</h2>
+		<p>An investment in your future <br>
+		Have you ever wondered what a UK education can do for you? Alongside a world-class qualification, studying in the UK will give you the opportunity to experience a new culture, network with students and professionals from all over the world, and gain skills to help further your career development. </p> 
+
+		<p>There are various financial support options available to help fund your studies in the UK. This includes scholarships, grants, bursaries, fellowships, financial awards and loans.</p>
+
+	</p>Anything is possible <br>
+	Receiving financial support could help you achieve your dreams – be it progressing your career, starting your own business or bringing change and opportunity to your community. In our film above, scholarship recipients talk about how the opportunity has transformed their lives. They have one piece of advice for students thinking of applying for a scholarship: ‘Just go for it!’
+
+	<p>Scholarships and financial support <br>
+	The UK government offers hundreds of scholarships, bursaries and additional financial support to students from several countries. You can visit the UKCISA (UK Council for International Student Affairs) website  to find out if you are eligible for a scholarship. </p>
+
+	<p>Many institutions also offer their own financial assistance, and you can check their websites for more information.</p>
+
+
+
+
+	<!-- Scholarships -->
+
+
+	<h2>Scholarships</h2>
+	<h2>Commonwealth Scholarship and Fellowship</h2>
+	<p>
+	The Commonwealth Scholarship and Fellowship is an international programme under which member governments offer scholarships and fellowships to citizens of other Commonwealth countries. The programme was established at the first Commonwealth Education Conference in 1959, and over 26,000 individuals have benefitted from it so far. </p>
+
+	<p>Commonwealth scholarships in the UK are funded by the Department for International Development, Department for Business, Energy and Industrial Strategy (BEIS) and the Department for Education (DFE), in conjunction with UK universities. The CSC also nominates UK citizens for scholarships to study in other Commonwealth countries under the Commonwealth Scholarship and Fellowship Plan.</p>
+
+	<p>The Commonwealth Scholarship and Fellowship Plan provides opportunities to students of Commonwealth countries who can make a significant contribution to their home country after the completion of a higher education programme in the UK. This is a source of funding made available to all Commonwealth countries by the Commonwealth Scholarships Commission. </p>
+
+	<p>LEVEL OF COURSES <br>
+		One year Taught Master's courses <br>
+		The CSFP is an annual scheme made available to all the Commonwealth countries by the Commonwealth Scholarships Commission. In India, this is jointly managed by:
+		<br>
+		Commonwealth Scholarships Commission <br>
+		The British Council, India <br>
+		Association of Commonwealth Universities (ACU) <br>
+		Ministry of Human Resource Development (MHRD), Government of India. <br>
+		THE SCHOLARSHIP COVERS: <br>
+		economy return international travel <br>
+		tuition fee <br>
+		adequate maintenance and other allowances. <br>
+		THEMES COVERED: <br>
+		Science and technology for development <br>
+		Strengthening health systems and capacity <br>
+		Promoting global prosperity <br>
+		Strengthening global peace, security and governance <br>
+		Strengthening resilience and response to crises <br>
+		Access, inclusion and opportunity <br>
+		Applications for 2020 are now closed! <br>
+	For details, please visit Commonwealth Scholarship Commission's website  and the MHRD website</p>
+
+
+	<h2>Charles Wallace India Trust Scholarships</h2>
+
+	<p>CWIT enables Indians in the early to mid stages of their careers to spend time in the UK, helping them to achieve artistic, academic and professional ambitions and to broaden their international contacts.
+		<br>
+		Who was Charles Wallace?
+		<br>
+		Charles Wallace was born in Calcutta in 1855. He lived, worked and flourished there, founding the Shaw Wallace company (though there are no connections now between CWIT and Shaw Wallace).
+		<br>
+		Charles Wallace died in 1916, bequeathing his modest fortune to his family for a generation and then for the benefit of those among whom he had made it.
+		<br>
+		About CWIT
+		In 1981, following an agreement between the Indian and British governments, CWIT was established as an English charity. It is run by four trustees. The trustees cover CWIT’s main areas of interest and are Dr Yasmin Khan, Caroline Douglas,Gregor Stark, and Cathy Stephens. The Secretary is Shreela Ghosh. 
+		<br>
+		In over 30 years CWIT has made around 2700 grants. British Council India advises on CWIT’s work and gives valuable administrative support.
+		<br>
+		CWIT’s recent annual reports and accounts, including lists of scholarships and grants given, can be seen on the Charity Commission’s website
+		<br>
+		Please note: The London School of Performing Arts (LISPA) has now moved its courses to Berlin hence CWIT will no longer offer scholarships to attend them. We have agreed to reconsider if LISPA move their course back to London.
+		<br>
+		Visas <br>
+		While the British Council will facilitate and advise, the cost of the visa must be borne by the applicant.
+		<br>
+		For more information, please write to cwit@in.britishcouncil.org
+		<br>
+		Privacy Policy <br>
+		The General Data Protection Regulation came into force in May 2018 and requires organisations to state their policies regarding the protection of personal data. The Charles Wallace India Trust holds the personal data of applicants for grants eg their names, addresses, telephone numbers and next of kin. CWIT also  shares this data with British Council  which  manages  the application process. You can read the Privacy policy of British Council here.
+		<br>
+	We also hold UK bank account details for long term awardees to whom we arrange to pay monthly living grants. These are shared  only with our bankers Coutts & Co when we issue instructions to set up Standing Orders, and not with the British Council. </p>
+	<h2>Scholarships funded by organisations and UK higher education institutions</h2>
+
+	<h2>Hornby scholarships 2020</h2>
+	<p>We’re very pleased to announce the opening of the recruitment process for the A.S.Hornby Educational Trust scholarships for study in the UK between October 2020 and September 2021. The deadline for receipt of applications is 12.00 midday UK time/ 17.30 India time on Saturday, 30 November 2019.
+		<br>
+		The A.S.Hornby Educational Trust scholarships are awarded every year to English language teachers from outside the UK to study for a Masters degree in English Language Teaching (ELT) at the University of Warwick.
+		<br>
+		The Trust was set up by A.S.Hornby in 1961 to support English language teaching worldwide. A.S.Hornby had a distinguished career in English language teaching and developed the Oxford Advanced Learners’ Dictionary, now in its 8th edition. The Trust is a registered charity in the UK.
+		<br>
+		The scholarships fund study on the one-year Masters in TESOL at the University of Warwick. The scholarships cover all the costs in the UK including a monthly stipend to cover accommodation and living expenses, tuition fees, and return air tickets, visa and approved language test costs
+		<br>
+		Eligibility:
+		<br>
+		three years’ full-time English language teaching experience and a full university degree.
+		applicants also require the level of English proficiency stipulated by the university. Please find guidance below on English language requirements. <p>
+		</div>
+	</div>
+
+	<!-- table hornby-requirement -->
+	<table class="hornby-requirements-table">
+
+		<tr>
+			<td> <strong>IELTS</strong></td>
+			<td> 
+				"Overall 6.5"
+				<br>
+				"Writing 6.5"
+				<br>
+				"Reading, Listening and Speaking 6.0"
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<strong>TOEFL</strong>
+			</td>
+
+			<td>Overall 92
+				<br> 
+				Listening 21
+				<br> 
+				Reading 22
+				<br> 
+				Writing 24
+				<br> 
+				Speaking 23
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<strong>PTE</strong>
+			</td>	
+			<td>Overall 62
+				<br>
+				Writing 62
+				<br>
+				None below 51
+			</td>
+		</tr>
+	</table> 
+
+
+	<!-- Social Media--->
+
+	<div id="social-media">
+		<h2>Connect with us</h2>
+
+		<i class="media-icons fab fa-facebook"></i>
+		<i class="media-icons fab fa-instagram-square"></i>
+		<i class="media-icons fab fa-google-plus-g"></i>
+		<i class="media-icons fab fa-youtube"></i>
+	</div>
+</body>
+</html>		

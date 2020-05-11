@@ -1,0 +1,158 @@
+
+body{	background-color: #faf2f2 !important;
+	    font-family: 'Montserrat', sans-serif !important; 	
+
+}
+
+h1{
+	font-family: 'Ubuntu-bold';
+	font-size: 3rem !important;
+	font-weight: bold !important;
+	padding: 2.5rem 0rem;
+	text-align: left;
+}
+
+h2, h3, h4, h5{
+	font-family: 'Ubuntu-bold' !important;
+	font-weight: bold !important;
+}
+
+
+
+
+#top-bar{
+	font-family: 'Ubuntu-bold', sans-serif;
+	text-align: center;
+	background-color:#856c8b;
+	color:white !important;
+}
+
+.navbar-brand{	
+	font-family: 'Ubuntu';
+	color:#fff !important;
+	padding: 10px;
+	line-height: 1.5;
+
+
+}
+
+
+.carousel-images{
+	width: 100%;
+	height: 400px;
+	padding:0px;
+}
+
+
+
+#why-uk, #education-system, #livingcost, #post-study {
+	margin:100px 0px;
+
+}
+
+
+
+#why-uk{
+	text-align: justify;
+
+}
+
+
+
+.towerbridge{
+	height:400px;
+	width:100%;
+	border-radius: 100%;
+ 	margin-top: 30px;
+}
+
+@media (max-width: 1000px) {
+	.towerbridge, .education-image-2, .calculating-image, .post-study-image-2 {
+		position: static;
+		border-radius: 0% !important;
+		height: 400px !important;
+		width:100% !important;
+
+	}
+}
+
+
+#education-system{
+
+	text-align: justify;
+}
+
+
+.education-image{
+	height: 400px;
+	width:100%;
+	border-radius: 100%;
+	margin-top: 30px;
+
+}
+
+
+#livingcost{
+	text-align: justify;
+}
+
+
+.calculating-image{
+	height: 400px;
+	width: 100%;
+	border-radius:100%; 
+	margin-top:60px;
+}
+
+
+#post-study{
+	text-align: justify;
+}
+
+
+.post-study-image{
+	height: 400px;
+	width:100%;
+	border-radius: 100%;
+	margin-top: 70px;
+}
+
+
+.container-fluid{
+
+	text-align: center !important;
+	padding: 30px;
+	background-color:#856c8b;
+	color: #fff;
+
+}
+
+
+
+.hornby-requirements-table{
+	border:2px solid white;   
+	background-color:#f0f0f0;
+	text-align: left;
+	margin: 40px auto !important;
+
+}
+
+td{
+	border:1px solid white;
+	padding:10px 50px;
+
+}	
+
+#social-media{
+	padding: 0px 20px; 
+	text-align: center;
+	background-color:#856c8b; 
+	padding:40px;
+	line-height: 1.5;
+
+}
+
+.media-icons{
+	padding:1.5rem;
+	font-size: 60px;
+}
